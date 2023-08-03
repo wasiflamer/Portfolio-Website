@@ -3,13 +3,10 @@ function Hero() {
     <div className='hero min-h-full bg-base-900 '>
       <div className='hero-content flex-col lg:flex-row-reverse'>
         <div className='stack w-full h-full'>
+          <img src='/images/wasi.jpg' className='max-w-xl mask mask-squircle' />
           <img
-            src='https://images.pexels.com/photos/17029537/pexels-photo-17029537/free-photo-of-young-woman-in-a-modern-denim-outfit.jpeg'
-            className='max-w-sm  shadow-2xl mask mask-parallelogram-3'
-          />
-          <img
-            src='https://images.pexels.com/photos/17029537/pexels-photo-17029537/free-photo-of-young-woman-in-a-modern-denim-outfit.jpeg'
-            className='max-w-md  shadow-2xl mask mask-parallelogram-4'
+            src='/images/wasi.jpg'
+            className='max-w-full max-h-full mask mask-squircle '
           />
         </div>
         <div>
