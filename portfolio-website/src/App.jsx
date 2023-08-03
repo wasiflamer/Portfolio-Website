@@ -34,6 +34,13 @@ function Bar() {
         <a className='btn btn-ghost normal-case text-xl bg-slate-50 text-primary-content hover:bg-slate-50'>
           Portfolio
         </a>
+
+        <div className='form-control w-52'>
+          <label className='cursor-pointer label'>
+            <span className='label-text'>Dark Mode</span>
+            <input type='checkbox' className='toggle' uncheck />
+          </label>
+        </div>
       </div>
     </div>
   );
@@ -50,10 +57,13 @@ function App() {
       <div className='flex justify-center'>
         <div className='mockup-code m-10 bg-gradient-to-r from-[#8360c3] to-[#2ebf91] '>
           <pre data-prefix='$'>
-            <code className='bg-slate-50 text-primary-content'>
+            <code className=' text-white text-bold text-lg '>
               Some of my hobby coded projects !
             </code>
           </pre>
+          <code className=' text-white text-bold text-lg '>
+            <div className=' mx-10 loading loading-dots loading-lg text-white'></div>
+          </code>
         </div>
       </div>
     </>
