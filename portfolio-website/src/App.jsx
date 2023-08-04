@@ -221,7 +221,9 @@ function Bar2() {
             </li>
           </ul>
         </div>
-        <a className='btn btn-ghost normal-case text-xl mx-4'>daisyUI</a>
+        <a className='btn btn-ghost normal-case text-xl mx-4 bg-neutral-content text-primary-content'>
+          PortFolio
+        </a>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1'>
