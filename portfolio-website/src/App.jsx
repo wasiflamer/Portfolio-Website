@@ -17,8 +17,8 @@ function Codeblock() {
 
 function Showcase() {
   return (
-    <div className='flex justify-center'>
-      <div className='carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box'>
+    <div className='flex flex-col space-y-4 justify-center text-center items-center'>
+      <div className='carousel carousel-center max-w-full p-4 space-x-4 bg-neutral rounded-box'>
         <div id='item1' className='carousel-item'>
           <img
             src='/images/background.jpg'
@@ -38,17 +38,11 @@ function Showcase() {
           />
         </div>
       </div>
-
-      <div class='flex justify-center w-full py-2 gap-2'>
-        <a href='#item1' class='btn btn-primary'>
-          1
-        </a>
-        <a href='#item2' class='btn btn-primary'>
-          2
-        </a>
-        <a href='#item3' class='btn btn-primary'>
-          3
-        </a>
+      <div>
+        <div className='join grid grid-cols-2'>
+          <button className='join-item btn btn-outline'>Previous page</button>
+          <button className='join-item btn btn-outline'>Next</button>
+        </div>
       </div>
     </div>
   );
@@ -74,7 +68,7 @@ function Hero() {
             with clean code, dedicated to delivering so lutions that leave a
             lasting impact. Let's build something incredible together!"
           </p>
-          <button className='btn btn-neutral btn-wide text-white normal-case '>
+          <button className='btn btn-neutral btn-wide text-white normal-case  hover:text-neutral hover:bg-white '>
             Hire Me
           </button>
         </div>
@@ -85,73 +79,52 @@ function Hero() {
 
 function Bar() {
   return (
-    <div className='navbar-center bg-primary text-primary-content m-20 p-2 rounded-full shadow-md'>
-      <div className='flex justify-between mx-4'>
-        <div>
-          <a className='btn btn-ghost normal-case text-xl bg-slate-50 text-primary-content hover:bg-slate-50'>
-            Portfolio
-          </a>
-          <ul className='menu menu-horizontal bg-primary-content text-neutral-content w-100 rounded-box mx-2'>
+    <div className='navbar bg-primary text-primary-content mx-2 my-2 rounded-full shadow-md'>
+      <div className='navbar-start'>
+        <div className='dropdown'>
+          <label tabIndex={0} className='btn btn-ghost lg:hidden'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              className='h-5 w-5'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M4 6h16M4 12h8m-8 6h16'
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52'
+          >
             <li>
-              <a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  className='h-5 w-5'
-                  fill='none'
-                  viewBox='0 0 24 24'
-                  stroke='currentColor'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'
-                  />
-                </svg>
-                Item 2
-              </a>
+              <a>Projects</a>
             </li>
             <li>
-              <a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  className='h-5 w-5'
-                  fill='none'
-                  viewBox='0 0 24 24'
-                  stroke='currentColor'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
-                  />
-                </svg>
-                Item 1
-              </a>
-            </li>
-            <li>
-              <a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  className='h-5 w-5'
-                  fill='none'
-                  viewBox='0 0 24 24'
-                  stroke='currentColor'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z'
-                  />
-                </svg>
-                Item 3
-              </a>
+              <a>Socials</a>
             </li>
           </ul>
         </div>
-
+        <a className='btn btn-ghost normal-case text-xl mx-4 bg-neutral-content text-primary-content hover:bg-neutral-content'>
+          PortFolio
+        </a>
+      </div>
+      <div className='navbar-center hidden lg:flex'>
+        <ul className='menu menu-horizontal px-1'>
+          <li>
+            <a>Projects</a>
+          </li>
+          <li>
+            <a>Socials</a>
+          </li>
+        </ul>
+      </div>
+      <div className='navbar-end'>
         <div className='form-control'>
           <label className='cursor-pointer label'>
             <label className='swap swap-rotate mx-2'>
@@ -188,64 +161,10 @@ function Bar() {
   );
 }
 
-function Bar2() {
-  return (
-    <div className='navbar bg-primary text-primary-content mx-2 my-2 rounded-full shadow-md'>
-      <div className='navbar-start'>
-        <div className='dropdown'>
-          <label tabIndex={0} className='btn btn-ghost lg:hidden'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
-            >
-              <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                d='M4 6h16M4 12h8m-8 6h16'
-              />
-            </svg>
-          </label>
-          <ul
-            tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52'
-          >
-            <li>
-              <a>Projects</a>
-            </li>
-            <li>
-              <a>Socials</a>
-            </li>
-          </ul>
-        </div>
-        <a className='btn btn-ghost normal-case text-xl mx-4 bg-neutral-content text-primary-content'>
-          PortFolio
-        </a>
-      </div>
-      <div className='navbar-center hidden lg:flex'>
-        <ul className='menu menu-horizontal px-1'>
-          <li>
-            <a>Projects</a>
-          </li>
-          <li>
-            <a>Socials</a>
-          </li>
-        </ul>
-      </div>
-      <div className='navbar-end'>
-        <a className=' btn btn-primary-content normal-case mx-4'>Dark Mode</a>
-      </div>
-    </div>
-  );
-}
-
 function App() {
   return (
     <>
-      <Bar2 />
+      <Bar />
       <div className='divider divider-vertical mx-24'></div>
       <Hero />
       <div className='divider divider-vertical mx-24'></div>
