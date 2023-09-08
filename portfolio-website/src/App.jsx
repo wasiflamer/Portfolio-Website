@@ -49,6 +49,7 @@ function Showcase() {
 }
 
 function Hero() {
+  
   return (
     <div className='hero min-h-full bg-base-900 '>
       <div className='hero-content flex-col lg:flex-row-reverse'>
