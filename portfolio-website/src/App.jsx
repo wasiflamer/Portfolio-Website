@@ -76,7 +76,7 @@ function Hero() {
             A passionate React developer with a keen eye for detail and a love
             for innovation. I thrive on crafting captivating web experiences
             with clean code, dedicated to delivering solutions that leave a
-            lasting impact, Let's build something incredible together!"
+            lasting impact Let's build something incredible together!"
           </p>
           <button
             className="btn btn-neutral
