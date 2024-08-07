@@ -53,12 +53,9 @@ function Hero() {
     <div className="hero min-h-full bg-base-900 ">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="drop-shadow-2xl">
-          <img
-            src="/images/wasi.jpg"
-            className="max-w-lg mask mask-squircle "
-          />
+          <img src="/images/wasi.jpg" className="max-w-lg mask mask-circle " />
         </div>
-        <div>
+        <div className="bg-gradient-to-r from-[#10d87b] to-[#06853b] p-10 rounded-lg">
           <h1
             className="text-8xl font-bold bg-clip-text
            text-transparent bg-gradient-to-r from-[#00aeff] to-[#000000]"
