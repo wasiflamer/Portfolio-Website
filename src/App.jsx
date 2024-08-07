@@ -51,26 +51,24 @@ function Showcase() {
 function Hero() {
   return (
     <>
-      <Bar />
       <div className="hero min-h-full bg-gradient-to-b from-[#011638] to-[#011028] ">
         <div className="hero-content flex-col lg:flex-row-reverse">
+          {/* img section  */}
           <div className="drop-shadow-2xl">
-            <img
-              src="/images/wasi.png"
-              className="max-w-lg mask mask-circle "
-            />
+            <img src="/images/wasi.png" className="max-w-lg rounded-md " />
           </div>
+          {/* text section  */}
           <div className="bg-gradient-to-r from-[#E8C547] to-[#E8C547] p-10 rounded-lg">
             <h1
               className="text-8xl font-bold bg-clip-text
-           text-transparent bg-gradient-to-r from-[#011638] to-[#000000]"
+           text-transparent bg-gradient-to-r from-[#D11149] to-[#D11149]"
             >
               Hey !
             </h1>
 
             <h1
               className="text-5xl font-bold bg-clip-text
-           text-transparent bg-gradient-to-r from-[#1D976C] to-[#93F9B9]"
+           text-transparent bg-gradient-to-r from-[#011638] to-[#011028]"
             >
               I AM WASEEM
             </h1>
@@ -121,8 +119,8 @@ function Hero() {
 
 function Bar() {
   return (
-    <div className="m-6">
-      <div className="navbar bg-transparent text-primary-content mx-2 my-2 rounded-md shadow-md">
+    <div className="ml-2 mr-2">
+      <div className="navbar bg-transparent text-white mx-2 my-2 rounded-md shadow-md">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -153,9 +151,6 @@ function Bar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl mx-4 bg-neutral-content text-primary-content hover:bg-neutral-content">
-            PortFolio
-          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -175,7 +170,11 @@ function Bar() {
 function App() {
   return (
     <>
-      <Hero />
+      <div className="flex flex-col bg-[#011638]">
+        <Bar />
+        <Hero />
+      </div>
+
       <Codeblock />
       <Showcase />
     </>
