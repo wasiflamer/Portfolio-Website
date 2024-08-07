@@ -1,17 +1,19 @@
 function Codeblock() {
   return (
-    <div className="flex justify-center  bg-[#2E294E]">
-      <div className="mockup-code m-10 bg-gradient-to-r from-[#8360c3] to-[#2ebf91] ">
-        <pre data-prefix="$">
+    <>
+      <div className="flex justify-center  bg-[#2E294E]">
+        <div className="mockup-code m-10 bg-gradient-to-r from-[#8360c3] to-[#2ebf91] ">
+          <pre data-prefix="$">
+            <code className=" text-white text-bold text-lg ">
+              Some of my hobby coded projects !
+            </code>
+          </pre>
           <code className=" text-white text-bold text-lg ">
-            Some of my hobby coded projects !
+            <div className=" mx-10 loading loading-dots loading-lg text-white"></div>
           </code>
-        </pre>
-        <code className=" text-white text-bold text-lg ">
-          <div className=" mx-10 loading loading-dots loading-lg text-white"></div>
-        </code>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
@@ -52,10 +54,10 @@ function Hero() {
   return (
     <>
       <div className="hero min-h-full bg-gradient-to-b from-[#011638] to-[#011028] ">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col lg:flex-row-reverse ">
           {/* img section  */}
-          <div className="drop-shadow-2xl">
-            <img src="/images/wasi.png" className="max-w-lg rounded-md " />
+          <div className="drop-shadow-2xl  animate-fadeinright">
+            <img src="/images/wasi.png" className="max-w-lg rounded-md" />
           </div>
           {/* text section  */}
           <div className="bg-gradient-to-r from-[#E8C547] to-[#E8C547] p-10 rounded-lg">
@@ -119,9 +121,9 @@ function Hero() {
 
 function Bar() {
   return (
-    <div className="ml-2 mr-2">
-      <div className="navbar bg-transparent text-white mx-2 my-2 rounded-md shadow-md">
-        <div className="navbar-start">
+    <div className="m-4">
+      <div className="navbar bg-[#011638] text-white mx-2 my-2 rounded-md shadow-2xl ">
+        <div className="navbar-center">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -141,13 +143,16 @@ function Bar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow rounded-md w-80 bg-[#011638]"
             >
               <li>
-                <a>Projects</a>
+                <a>Portfolio</a>
               </li>
               <li>
                 <a>Socials</a>
+              </li>
+              <li>
+                <a>Contact</a>
               </li>
             </ul>
           </div>
@@ -155,10 +160,13 @@ function Bar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Projects</a>
+              <a>Portfolio</a>
             </li>
             <li>
               <a>Socials</a>
+            </li>
+            <li>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
@@ -170,11 +178,18 @@ function Bar() {
 function App() {
   return (
     <>
-      <div className="flex flex-col bg-[#011638]">
+      <div className="flex flex-col bg-[#011028]">
         <Bar />
         <Hero />
+        <h1
+          className="text-8xl font-bold bg-clip-text
+          text-transparent
+          bg-gradient-to-r from-[#D11149] to-[#D11149]
+          m-4"
+        >
+          Portfolio
+        </h1>
       </div>
-
       <Codeblock />
       <Showcase />
     </>
