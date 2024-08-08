@@ -17,7 +17,7 @@ function SingleCard() {
               className="btn"
               onClick={() => document.getElementById("my_modal_2").showModal()}
             >
-              open modal
+              Show Details
             </button>
             <dialog id="my_modal_2" className="modal">
               <div className="modal-box">
