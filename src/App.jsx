@@ -1,3 +1,45 @@
+function SingleCard() {
+  return (
+    <>
+      <div className="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">GameRaid</h2>
+          <p>blah blah blah ! </p>
+          <div className="card-actions justify-end">
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              open modal
+            </button>
+            <dialog id="my_modal_2" className="modal">
+              <div className="modal-box">
+                <h3 className="font-bold text-lg">GameRaid</h3>
+                <p className="py-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  molestiae excepturi illum aliquam nam ut minima, sed at
+                  quibusdam voluptates consequuntur? Exercitationem error
+                  voluptas ut pariatur aperiam ducimus veritatis excepturi.
+                </p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 function Codeblock() {
   return (
     <>
@@ -19,34 +61,12 @@ function Codeblock() {
 
 function Showcase() {
   return (
-    <div className="flex flex-col space-y-4 justify-center text-center items-center bg-[#2E294E]">
-      <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-neutral rounded-box">
-        <div id="item1" className="carousel-item">
-          <img
-            src="/images/background.jpg"
-            className="rounded-box max-w-sm max-h-full"
-          />
-        </div>
-        <div id="item2" className="carousel-item">
-          <img
-            src="/images/background.jpg"
-            className="rounded-box max-w-sm max-h-full"
-          />
-        </div>
-        <div id="item3" className="carousel-item">
-          <img
-            src="/images/background.jpg"
-            className="rounded-box max-w-sm max-h-full"
-          />
-        </div>
+    <>
+      <div className="flex justify-center flex-row gap-4 p-4 ">
+        <SingleCard />
+        <SingleCard />
       </div>
-      <div>
-        <div className="join grid grid-cols-2">
-          <button className="join-item btn btn-outline">Previous page</button>
-          <button className="join-item btn btn-outline">Next</button>
-        </div>
-      </div>
-    </div>
+    </>
   );
 }
 
