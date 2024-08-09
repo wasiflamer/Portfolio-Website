@@ -20,14 +20,27 @@ function SingleCard() {
               Show Details
             </button>
             <dialog id="my_modal_2" className="modal">
-              <div className="modal-box">
-                <h3 className="font-bold text-lg">GameRaid</h3>
-                <p className="py-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                  molestiae excepturi illum aliquam nam ut minima, sed at
-                  quibusdam voluptates consequuntur? Exercitationem error
-                  voluptas ut pariatur aperiam ducimus veritatis excepturi.
-                </p>
+              <div className="modal-box max-w-full max-h-full">
+                <div className="card lg:card-side bg-base-100 shadow-xl ">
+                  <div className="mockup-phone">
+                    <div className="camera"></div>
+                    <div className="display">
+                      <div className="artboard artboard-demo phone-1">Hi.</div>
+                    </div>
+                  </div>
+                  <div className="card-body w-2 m-2 border-2 border-red-600">
+                    <h2 className="card-title">GameRaid</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Consequuntur, minima atque aliquam ab necessitatibus
+                      minus. Eum cum, neque impedit pariatur saepe enim, dolore
+                      ex labore, consectetur tempore fuga. Animi, alias?
+                    </p>
+                    <div className="card-actions justify-end">
+                      <button className="btn btn-primary">Listen</button>
+                    </div>
+                  </div>
+                </div>
               </div>
               <form method="dialog" className="modal-backdrop">
                 <button>close</button>
@@ -63,6 +76,7 @@ function Showcase() {
   return (
     <>
       <div className="flex justify-center flex-row gap-4 p-4 ">
+        <SingleCard />
         <SingleCard />
         <SingleCard />
       </div>
@@ -212,6 +226,14 @@ function App() {
       </div>
       <Codeblock />
       <Showcase />
+      <h1
+        className="text-8xl font-bold bg-clip-text
+          text-transparent
+          bg-gradient-to-r from-[#E8C547] to-[#E8C547]
+          m-4"
+      >
+        Socials
+      </h1>
     </>
   );
 }
