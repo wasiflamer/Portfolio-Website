@@ -1,4 +1,9 @@
+// imports for shapes
 import { Donut } from "react-awesome-shapes";
+
+// imports for icons ( fontawesome)
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero() {
   return (
@@ -48,25 +53,22 @@ export default function Hero() {
             </div>
             <div className="flex mt-10 gap-4 flex-row">
               <div>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"
-                  alt=""
-                  className="w-18 h-12"
-                />
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"
-                  alt=""
-                  className="w-18 h-12"
-                />
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"
-                  alt=""
-                  className="w-18 h-12"
-                />
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
             </div>
           </div>
