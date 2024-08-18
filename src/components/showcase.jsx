@@ -3,7 +3,7 @@ import SingleCard from "./card";
 export default function Showcase() {
   return (
     <>
-      <div className="flex justify-center flex-row gap-4 p-4 ">
+      <div className="flex justify-center flex-row gap-4 p-4 bg-gradient-to-b from-[#2E294E] to-[#201c35] ">
         <SingleCard
           CardTitle={"Gameraid"}
           Card_Details={"Video Games tracker"}

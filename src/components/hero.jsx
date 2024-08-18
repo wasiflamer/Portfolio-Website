@@ -3,7 +3,15 @@ import { Donut } from "react-awesome-shapes";
 
 // imports for icons ( fontawesome)
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faJs,
+  faHtml5,
+  faCss3,
+  faReact,
+  faNodeJs,
+  faFlutter,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Hero() {
   return (
@@ -23,7 +31,7 @@ export default function Hero() {
             <img src="/images/newpsd.png" className="max-w-lg rounded-md" />
           </div>
           {/* text section  */}
-          <div className="bg-gradient-to-r from-[#E8C547] to-[#E8C547] rounded-lg p-10 z-50">
+          <div className="bg-gradient-to-r from-[#E8C547] to-[#E8C547] rounded-lg p-10 z-50 drop-shadow-lg">
             <h1
               className="text-8xl font-bold bg-clip-text
            text-transparent bg-gradient-to-r from-[#D11149] to-[#D11149]"
@@ -49,26 +57,26 @@ export default function Hero() {
               Hire Me
             </button>
             <div className="mt-6 font-bold text-4xl">
-              <h1>Things i know well </h1>
+              <h1>Things i know </h1>
             </div>
             <div className="flex mt-10 gap-4 flex-row">
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faJs} size="3x" />
               </div>
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faHtml5} size="3x" />
               </div>
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faCss3} size="3x" />
               </div>
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faReact} size="3x" />
               </div>
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faNodeJs} size="3x" />
               </div>
               <div>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faFlutter} size="3x" />
               </div>
             </div>
           </div>
