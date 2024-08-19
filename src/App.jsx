@@ -2,7 +2,7 @@ import Bar from "./components/navbar";
 import Hero from "./components/hero";
 import Codeblock from "./components/codeblock";
 import Showcase from "./components/showcase";
-
+import Socials from "./components/socials";
 
 function App() {
   return (
@@ -21,14 +21,7 @@ function App() {
       </div>
       <Codeblock />
       <Showcase />
-      <h1
-        className="text-8xl font-bold bg-clip-text
-          text-transparent
-          bg-gradient-to-r from-[#E8C547] to-[#E8C547]
-          m-4"
-      >
-        Socials
-      </h1>
+      <Socials />
     </>
   );
 }

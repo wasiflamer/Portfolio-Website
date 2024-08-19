@@ -1,11 +1,11 @@
 export default function SingleCard({ CardTitle, Card_Details, Img_url }) {
   return (
     <>
-      <div className="card bg-base-100 shadow-xl w-96">
+      <div className="card bg-zinc-900 drop-shadow-lg w-96">
         <figure>
           <img src={Img_url} />
         </figure>
-        <div className="card-body">
+        <div className="card-body ">
           <h2 className="card-title">{CardTitle}</h2>
           <p>{Card_Details}</p>
           <div className="card-actions justify-end">
