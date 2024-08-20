@@ -2,7 +2,7 @@ import Bar from "./components/navbar";
 import Hero from "./components/hero";
 import Codeblock from "./components/codeblock";
 import Showcase from "./components/showcase";
-import Socials from "./components/socials";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       </div>
       <Codeblock />
       <Showcase />
-      <Socials />
+      <Footer />
     </>
   );
 }

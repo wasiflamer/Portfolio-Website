@@ -27,14 +27,6 @@ export default function Showcase() {
             }
           />
         </div>
-        <h1
-          className="text-8xl font-bold bg-clip-text
-          text-transparent
-          bg-gradient-to-r from-[#E8C547] to-[#E8C547]
-          m-4"
-        >
-          Socials
-        </h1>
       </div>
     </>
   );
