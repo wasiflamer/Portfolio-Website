@@ -1,8 +1,8 @@
 export default function SingleCard({ CardTitle, Card_Details, Img_url }) {
   return (
     <>
-      <div className="card bg-zinc-900 drop-shadow-lg w-96">
-        <figure>
+      <div className="card bg-[#8360c3] drop-shadow-lg w-96  ">
+        <figure className="hover:brightness-150">
           <img src={Img_url} />
         </figure>
         <div className="card-body ">
