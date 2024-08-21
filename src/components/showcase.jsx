@@ -11,6 +11,7 @@ export default function Showcase() {
             Img_url={
               "https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWNvbnN8ZW58MHx8MHx8fDA%3D"
             }
+            modal_name={"modal_1"}
           />
           <SingleCard
             CardTitle={"Notecom"}
@@ -18,6 +19,7 @@ export default function Showcase() {
             Img_url={
               "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWNvbnN8ZW58MHx8MHx8fDA%3D"
             }
+            modal_name={"modal_2"}
           />
           <SingleCard
             CardTitle={"Designs"}
@@ -25,6 +27,7 @@ export default function Showcase() {
             Img_url={
               "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aWNvbnN8ZW58MHx8MHx8fDA%3D"
             }
+            modal_name={"modal_3"}
           />
         </div>
       </div>
