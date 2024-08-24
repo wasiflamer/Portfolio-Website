@@ -33,8 +33,6 @@ export default function Dialogs() {
               </div>
             </div>
             <div className="self-center basis-1/12">
-              {" "}
-              {/* Adjusted to fit remaining space */}
               <a className="">
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -44,10 +42,8 @@ export default function Dialogs() {
               </a>
             </div>
             <div className="flex m-10 items-start basis-6/12">
-              {" "}
-              {/* Reduced to 5/12 */}
               <div className="">
-                <h3 className="font-bold text-lg">GameRaid</h3>
+                <h3 className="font-bold text-3xl">GameRaid</h3>
                 <p className="py-4">
                   Video Game Tracker And Collection Manager
                 </p>
@@ -55,7 +51,7 @@ export default function Dialogs() {
                 <ul className="list-disc ml-4 py-2">
                   <li>Wishlist</li>
                   <li>New Releases</li>
-                  <li>Categories</li> {/* Corrected spelling mistake */}
+                  <li>Categories</li>
                   <li>Search</li>
                   <li>Offline Support</li>
                 </ul>
@@ -95,8 +91,6 @@ export default function Dialogs() {
           </div>
           <div className="flex flex-row justify-start gap-4">
             <div className="mockup-phone m-0">
-              {" "}
-              {/* Increased to 5/6 */}
               <div className="camera"></div>
               <div className="display">
                 <div className="artboard artboard-demo phone-1 ">
@@ -105,8 +99,6 @@ export default function Dialogs() {
               </div>
             </div>
             <div className="self-center basis-1/12">
-              {" "}
-              {/* Adjusted to fit remaining space */}
               <a className="">
                 <FontAwesomeIcon
                   icon={faArrowRight}
@@ -116,9 +108,8 @@ export default function Dialogs() {
               </a>
             </div>
             <div className="flex m-10 items-start basis-6/12">
-              {/* Reduced to 5/12 */}
               <div className="">
-                <h3 className="font-bold text-lg">Notecome</h3>
+                <h3 className="font-bold text-3xl">Notecom</h3>
                 <p className="py-4">
                   Visiually Stunning Note-Taking App with Dynamic Colors, Full
                   CRUD
@@ -127,7 +118,7 @@ export default function Dialogs() {
                 <ul className="list-disc ml-4 py-2">
                   <li>Dynamic Colors</li>
                   <li>Update notes</li>
-                  <li>Delete notes </li> {/* Corrected spelling mistake */}
+                  <li>Delete notes </li>
                   <li>Create notes </li>
                   <li>Settings</li>
                   <li>Social integration</li>
@@ -148,14 +139,13 @@ export default function Dialogs() {
               </div>
             </div>
           </div>
-          {/* ------------------ */}
         </div>
       </dialog>
       <dialog
         id="modal_3"
         className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 "
       >
-        <div className="modal-box min-h-[95%] min-w-[80%] ">
+        <div className="modal-box min-h-[95%] min-w-[80%]  bg-gray-800 text-white ">
           {/* model screen  */}
           <div className="flex flex-col">
             <form method="dialog">
@@ -165,34 +155,104 @@ export default function Dialogs() {
               </button>
             </form>
           </div>
-          <div className="flex m-10 items-start">
-            <div className="">
-              <div className="mockup-window bg-base-300 ">
-                <div className="flex justify-center bg-base-200 px-4 py-4">
-                  <Carousel />
+          <div className="flex flex-col m-5 p-5 gap-4">
+            <div className="mockup-window bg-indigo-900 text-white">
+              <div className="flex flex-col justify-center  px-4 py-4">
+                <div className="carousel w-full h-auto drop-shadow-xl rounded-xl">
+                  <div id="slide1" className="carousel-item relative w-full">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                      className="w-full"
+                    />
+                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a
+                        href="#slide4"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❮
+                      </a>
+                      <a
+                        href="#slide2"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide2" className="carousel-item relative w-full">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                      className="w-full"
+                    />
+                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a
+                        href="#slide1"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❮
+                      </a>
+                      <a
+                        href="#slide3"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide3" className="carousel-item relative w-full">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                      className="w-full"
+                    />
+                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a
+                        href="#slide2"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❮
+                      </a>
+                      <a
+                        href="#slide4"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❯
+                      </a>
+                    </div>
+                  </div>
+                  <div id="slide4" className="carousel-item relative w-full">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                      className="w-full"
+                    />
+                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a
+                        href="#slide3"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❮
+                      </a>
+                      <a
+                        href="#slide1"
+                        className="btn btn-circle text-white bg-gray-600 border-0"
+                      >
+                        ❯
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="justify-center">
-                {" "}
-                {/* Adjusted to fit remaining space */}
-                <a className="">
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    size="3x"
-                    className="hover:animate-tada"
-                  />
-                </a>
-              </div>
-              <h3 className="font-bold text-lg">Novelty</h3>
-              <p className="py-4">
-                Wallpaper downloader inspired by variety app from linux sleek
+            </div>
+            <div className="">
+              <h3 className="font-bold text-3xl">Novelty</h3>
+              <p className="py-2">
+                Wallpaper downloader inspired by variety app from linux, sleek
                 and modern look looking, snapy animations, one click download.
               </p>
               <h3 className="font-bold text-lg">Features</h3>
               <ul className="list-disc ml-4 py-2">
                 <li>One Click Download</li>
                 <li>Seacrh by Color</li>
-                <li>Categories</li> {/* Corrected spelling mistake */}
+                <li>Categories</li>
                 <li>Snappy Animations</li>
               </ul>
               <h3 className="font-bold text-lg py-2">Description</h3>
@@ -211,8 +271,6 @@ export default function Dialogs() {
             </div>
           </div>
         </div>
-
-        {/* ------------------ */}
       </dialog>
     </>
   );
