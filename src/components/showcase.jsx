@@ -1,5 +1,7 @@
 import SingleCard from "./card";
 
+// TODO : include actual images here
+
 export default function Showcase() {
   return (
     <>
@@ -10,9 +12,7 @@ export default function Showcase() {
             Card_Details={
               "Video Game Tracker And Collection Manager For Android "
             }
-            Img_url={
-              "https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWNvbnN8ZW58MHx8MHx8fDA%3D"
-            }
+            Img_url={"/images/gameraid_img.png"}
             modal_name={"modal_1"}
           />
           <SingleCard
