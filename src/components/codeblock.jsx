@@ -9,7 +9,7 @@ export default function Codeblock() {
             </code>
           </pre>
           <code className=" text-white text-bold text-lg ">
-            <div className=" mx-10 loading loading-dots loading-lg text-white"></div>
+            <span className="loading loading-infinity loading-lg mx-10"></span>
           </code>
         </div>
       </div>

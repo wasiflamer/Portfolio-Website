@@ -9,8 +9,7 @@ export default function SingleCard({
   return (
     <>
       <div className="card bg-gray-700 text-white w-96 shadow-xl">
-        {/* TODO: we gonna make sure its same length and width according to viewport  */}
-        <figure className="hover:brightness-150 min-h-96 min-w-96 ">
+        <figure className="hover:brightness-150 h-80">
           <img src={Img_url} />
         </figure>
         <div className="card-body">
