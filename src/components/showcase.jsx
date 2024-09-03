@@ -20,7 +20,7 @@ export default function Showcase() {
             Card_Details={
               "Visiually Stunning Note-Taking App with Dynamic Colors, Full CRUD"
             }
-            Img_url={"/images/gameraid_img.png"}
+            Img_url={"/images/notecom_logo.png"}
             modal_name={"modal_2"}
           />
           <SingleCard
