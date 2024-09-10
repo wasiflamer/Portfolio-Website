@@ -6,7 +6,7 @@ export default function Showcase() {
   return (
     <>
       <div className="bg-gradient-to-b from-[#2E294E] to-[#201c35]">
-        <div className="flex justify-center flex-row gap-4 p-4  ">
+        <div className="flex justify-center flex-col gap-4 p-4 md:flex-row">
           <SingleCard
             CardTitle={"Gameraid"}
             Card_Details={

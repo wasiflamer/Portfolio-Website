@@ -54,10 +54,10 @@ export default function Hero() {
               className="btn btn-neutral
            btn-wide text-white normal-case  hover:text-neutral hover:bg-white "
             >
-              Hire Me
+              Contact Me
             </button>
             <div className="mt-6 font-bold text-4xl">
-              <h1>Things i know </h1>
+              <h1>My Stack</h1>
             </div>
             <div className="flex mt-10 gap-4 flex-row">
               <div>

@@ -1,7 +1,7 @@
 export default function Bar() {
   return (
     <div className="m-4">
-      <div className="navbar bg-[#011638] text-white mx-2 my-2 rounded-md shadow-2xl ">
+      <div className="navbar bg-[#011638] text-white mx-2 my-2 rounded-md shadow-2xl  ">
         <div className="navbar-center">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -37,15 +37,15 @@ export default function Bar() {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-4">
             <li>
-              <a>Portfolio</a>
+              <a className=" hover:bg-white">Portfolio</a>
             </li>
             <li>
-              <a>Socials</a>
+              <a className=" hover:bg-white">Socials</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a className=" hover:bg-white">Contact</a>
             </li>
           </ul>
         </div>
