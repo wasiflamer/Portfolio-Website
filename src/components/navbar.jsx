@@ -1,7 +1,7 @@
 export default function Bar() {
   return (
-    <div className="m-4">
-      <div className="navbar bg-[#011638] text-white mx-2 my-2 rounded-md shadow-2xl  ">
+    <div className="m-4 border-2 border-red-700">
+      <div className="navbar bg-[#011638] text-white my-2 rounded-md shadow-2xl  ">
         <div className="navbar-center">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
