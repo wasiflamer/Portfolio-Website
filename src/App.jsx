@@ -14,7 +14,7 @@ function App() {
           className="text-8xl font-bold bg-clip-text
           text-transparent
           bg-gradient-to-r from-[#D11149] to-[#D11149]
-          m-4"
+          m-4 "
         >
           Portfolio
         </h1>
