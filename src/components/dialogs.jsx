@@ -81,7 +81,7 @@ export default function Dialogs() {
       >
         <div className="modal-box min-h-[95%] min-w-[80%] ">
           {/* model screen  */}
-          <div className="flex flex-col">
+          <div className="flex flex-row">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn btn-sm btn-circle btn-ghost rounded-lg absolute right-4 top-4 bg-red-400">
@@ -89,7 +89,7 @@ export default function Dialogs() {
               </button>
             </form>
           </div>
-          <div className="flex flex-row justify-start gap-4">
+          <div className="flex flex-col justify-start gap-4 md:flex-row ">
             <div className="mockup-phone m-0">
               <div className="camera"></div>
               <div className="display">
@@ -150,12 +150,12 @@ export default function Dialogs() {
           <div className="flex flex-col">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
-              <button className="btn btn-sm btn-circle btn-ghost rounded-lg absolute right-4 top-4 bg-red-400">
+              <button className="btn btn-sm btn-circle btn-ghost rounded-lg absolute right-4 top-4 bg-red-400 z-50">
                 ✕
               </button>
             </form>
           </div>
-          <div className="flex flex-col m-5 p-5 gap-4">
+          <div className="flex flex-col justify-start gap-4">
             <div className="mockup-window bg-indigo-900 text-white">
               <div className="flex flex-col justify-center  px-4 py-4">
                 <div className="carousel w-full h-auto drop-shadow-xl rounded-xl">

@@ -1,10 +1,10 @@
 export default function Bar() {
   return (
-    <div className="m-4 border-2 border-red-700">
-      <div className="navbar bg-[#011638] text-white my-2 rounded-md shadow-2xl  ">
-        <div className="navbar-center">
+    <div className="m-4 rounded-xl">
+      <div className="navbar text-white bg-gray-800 rounded-xl">
+        <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -19,36 +19,46 @@ export default function Bar() {
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
-            </label>
+            </div>
             <ul
               tabIndex={0}
-              className="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow rounded-md w-80 bg-[#011638]"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Portfolio</a>
+                <a>Item 1</a>
               </li>
               <li>
-                <a>Socials</a>
+                <a>Parent</a>
+                <ul className="p-2">
+                  <li>
+                    <a>Submenu 1</a>
+                  </li>
+                  <li>
+                    <a>Submenu 2</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a>Contact</a>
+                <a>Item 3</a>
               </li>
             </ul>
           </div>
+          <a className="btn btn-ghost text text-xl">Waseem Raza</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-4">
+          <ul className="menu menu-horizontal px-1">
             <li>
-              <a className=" hover:bg-white">Portfolio</a>
+              <a>Portfolio</a>
             </li>
             <li>
-              <a className=" hover:bg-white">Socials</a>
+              <a>Email</a>
             </li>
             <li>
-              <a className=" hover:bg-white">Contact</a>
+              <a>Socials</a>
             </li>
           </ul>
         </div>
+        <div className="navbar-end"></div>
       </div>
     </div>
   );

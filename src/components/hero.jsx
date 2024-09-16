@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <>
       <div className="hero min-h-screen bg-gradient-to-b from-[#011638] to-[#011028] border-2 border-yellow-700 p-6 sm:p-12">
-        <div className="hero-content flex flex-col-reverse lg:flex-row-reverse items-center justify-between lg:justify-center">
+        <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-center">
           {/* Image Section */}
           <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright border-2 border-green-600">
             <img
@@ -24,7 +24,7 @@ export default function Hero() {
             />
           </div>
           {/* Text Section */}
-          <div className="flex flex-col items-start text-center lg:text-left w-full lg:w-1/2">
+          <div className="flex flex-col items-start text-center -mt-72 lg:text-left w-full lg:w-1/2">
             <div className="bg-gradient-to-r from-[#E8C547] to-[#E8C547] w-full lg:w-auto p-6 lg:p-10 border-4 rounded-lg drop-shadow-lg">
               <h1 className="text-5xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#D11149] to-[#D11149] mb-4">
                 Hey!
