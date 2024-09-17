@@ -1,7 +1,7 @@
 export default function Bar() {
   return (
     <div className="m-4 rounded-xl">
-      <div className="navbar text-white bg-gray-800 rounded-xl">
+      <div className="navbar text-white bg-indigo-950 rounded-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +46,7 @@ export default function Bar() {
           <a className="btn btn-ghost text text-xl">Waseem Raza</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 ">
             <li>
               <a>Portfolio</a>
             </li>

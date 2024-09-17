@@ -8,7 +8,7 @@ import Email from "./components/Email";
 function App() {
   return (
     <>
-      <div className="flex flex-col bg-[#011028] border-2 border-sky-700">
+      <div className="flex flex-col bg-[#011028]">
         <Bar />
         <Hero />
         <h1
