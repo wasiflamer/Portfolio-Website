@@ -1,14 +1,15 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export const ContactUs = () => {
+export default function ContactUs() {
   const form = useRef();
 
+  // handler
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_pol2wuo", "template_i56thuj", form.current, {
+      .sendForm("service_pol2wuo", "template_g4mybhi", form.current, {
         publicKey: "WFg4ohYfy98be-33W",
       })
       .then(
@@ -23,13 +24,13 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
+      <label>reply_to</label>
+      <input type="text" name="reply_to" id="reply_to" />
+      <label>from_name</label>
+      <input type="email" name="from_name" id="from_name" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input className="btn btn-square" type="submit" value="Send" />
     </form>
   );
-};
+}

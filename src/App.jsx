@@ -3,7 +3,7 @@ import Hero from "./components/hero";
 import Codeblock from "./components/codeblock";
 import Showcase from "./components/showcase";
 import Footer from "./components/footer";
-import Email from "./components/Email";
+import ContactUs from "./components/Contact";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       </div>
       <Codeblock />
       <Showcase />
-      <Email />
+      <ContactUs />
       <Footer />
     </>
   );
