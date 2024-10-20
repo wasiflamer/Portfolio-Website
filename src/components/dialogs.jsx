@@ -8,6 +8,7 @@ import CarouselNotecom from "./CarouselNotecom";
 export default function Dialogs() {
   return (
     <>
+    
       <dialog
         id="modal_1"
         className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 "
