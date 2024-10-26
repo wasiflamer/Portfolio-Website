@@ -159,7 +159,7 @@ export default function Dialogs() {
           <div className="flex flex-col justify-start gap-4">
             <div className="">
               <div className="flex flex-col justify-center  px-4 py-4">
-                <h3 className="font-bold text-5xl my-5 text-indigo-800">
+                <h3 className="font-bold text-5xl my-5 text-indigo-700">
                   Novelty
                 </h3>
                 <img
