@@ -2,9 +2,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import CarouselGameraid from "./CarouselGameraid";
-import CarouselNotecom from "./CarouselNotecom";
-
 export default function Dialogs() {
   return (
     <>
@@ -29,7 +26,7 @@ export default function Dialogs() {
               <div className="camera"></div>
               <div className="display">
                 <div className="artboard artboard-demo phone-1 ">
-                  <CarouselGameraid />
+                  carouselGame
                 </div>
               </div>
             </div>
@@ -95,7 +92,7 @@ export default function Dialogs() {
               <div className="camera"></div>
               <div className="display">
                 <div className="artboard artboard-demo phone-1 ">
-                  <CarouselNotecom />
+                  CarouselNotecom
                 </div>
               </div>
             </div>
