@@ -1,8 +1,8 @@
 export default function CarouselGameraid() {
   return (
     <>
-      <div className="carousel rounded-box w-full h-full">
-        <div className="carousel-item w-full">
+      <div className="carousel rounded-box w-full h-full ">
+        <div className="carousel-item w-full ">
           <img src="/images/gameraid/wishlist.png" className="w-full" />
         </div>
         <div className="carousel-item w-full">

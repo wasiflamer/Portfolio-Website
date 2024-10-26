@@ -8,7 +8,6 @@ import CarouselNotecom from "./CarouselNotecom";
 export default function Dialogs() {
   return (
     <>
-    
       <dialog
         id="modal_1"
         className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 "
@@ -24,7 +23,7 @@ export default function Dialogs() {
             </form>
           </div>
           <div className="flex flex-col justify-start gap-4 md:flex-row ">
-            <div className="mockup-phone m-0">
+            <div className="mockup-phone m-0 drop-shadow-lg">
               {" "}
               {/* Increased to 5/6 */}
               <div className="camera"></div>
@@ -35,7 +34,7 @@ export default function Dialogs() {
               </div>
             </div>
             <div className="self-center basis-1/12">
-              <a className="" href="#G-last">
+              <a className="" href="">
                 <FontAwesomeIcon
                   icon={faArrowRight}
                   size="3x"
@@ -45,7 +44,7 @@ export default function Dialogs() {
             </div>
             <div className="flex m-10 items-start basis-6/12">
               <div className="">
-                <h3 className="font-bold text-3xl">GameRaid</h3>
+                <h3 className="font-bold text-5xl text-orange-400">GameRaid</h3>
                 <p className="py-4">
                   Video Game Tracker And Collection Manager
                 </p>
@@ -81,7 +80,7 @@ export default function Dialogs() {
         id="modal_2"
         className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 "
       >
-        <div className="modal-box min-h-[95%] min-w-[80%] ">
+        <div className="modal-box min-h-[95%] min-w-[80%] text-gray-950 ">
           {/* model screen  */}
           <div className="flex flex-row">
             <form method="dialog">
@@ -111,7 +110,7 @@ export default function Dialogs() {
             </div>
             <div className="flex m-10 items-start basis-6/12">
               <div className="">
-                <h3 className="font-bold text-3xl">Notecom</h3>
+                <h3 className="font-bold text-5xl  text-indigo-800">Notecom</h3>
                 <p className="py-4">
                   Visiually Stunning Note-Taking App with Dynamic Colors, Full
                   CRUD
@@ -145,9 +144,9 @@ export default function Dialogs() {
       </dialog>
       <dialog
         id="modal_3"
-        className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 "
+        className="modal bg-[url('/images/background.jpg')] bg-center text-gray-900 bg-white"
       >
-        <div className="modal-box min-h-[95%] min-w-[80%]  bg-gray-800 text-white ">
+        <div className="modal-box min-h-[95%] min-w-[80%] bg-gray-50 text-gray-900 ">
           {/* model screen  */}
           <div className="flex flex-col">
             <form method="dialog">
@@ -158,16 +157,18 @@ export default function Dialogs() {
             </form>
           </div>
           <div className="flex flex-col justify-start gap-4">
-            <div className="mockup-window bg-indigo-900 text-white">
+            <div className="">
               <div className="flex flex-col justify-center  px-4 py-4">
+                <h3 className="font-bold text-5xl my-5 text-indigo-800">
+                  Novelty
+                </h3>
                 <img
                   src="/images/novelty/novelty.png"
-                  className="responsive rounded-lg"
+                  className="rounded-xl drop-shadow-lg"
                 />
               </div>
             </div>
-            <div className="">
-              <h3 className="font-bold text-3xl">Novelty</h3>
+            <div className="mx-10">
               <p className="py-2">
                 Wallpaper downloader inspired by variety app from linux, sleek
                 and modern look looking, snapy animations, one click download.
