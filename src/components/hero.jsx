@@ -38,9 +38,14 @@ export default function Hero() {
                 with clean code, dedicated to delivering solutions that leave a
                 lasting impact. Let's build something incredible together!
               </p>
-              <button className="btn btn-neutral btn-wide text-white normal-case hover:text-neutral hover:bg-white transition-all duration-300">
-                Contact Me
-              </button>
+            <button
+    onClick={() => {
+      document.getElementById("email")?.scrollIntoView({ behavior: "smooth" });
+    }}
+    className="btn btn-neutral btn-wide text-white normal-case hover:text-neutral hover:bg-white transition-all duration-300"
+  >
+    Contact Me
+  </button>
               <div className="mt-6 font-bold text-2xl lg:text-4xl">
                 <h1>My Stack</h1>
               </div>
