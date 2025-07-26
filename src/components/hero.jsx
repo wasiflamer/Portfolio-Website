@@ -17,25 +17,20 @@ export default function Hero() {
         <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-center">
           {/* Image Section */}
         
-          <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright ">
-
- <Donut
-   color="#f43f5e"
-   size="120px"
-   width={["30px", "30px", "50px", "50px"]}
-   zIndex={2}
-   className="absolute top-[-30px] left-[-30px]"
- />
-
-            <img
-              src="/images/newpsd.png"
-              className="max-w-full h-auto rounded-md -mt-20"
-              alt="Hero Image"
-            />
-
-            
-
-          </div>
+         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
+  <Donut
+    color="#f43f5e"
+    size="520px"
+    width={["30px", "30px", "50px", "50px"]}
+    zIndex={2}
+    className="absolute top-[-30px] left-[-30px] z-0"
+  />
+  <img
+    src="/images/newpsd.png"
+    className="relative max-w-full h-auto rounded-md -mt-20 z-10"
+    alt="Hero Image"
+  />
+</div>
 
             
 
