@@ -21,22 +21,13 @@ export default function Hero() {
         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
   {/* Main Donut on the right */}
   <PolygonCard
-      height="600px"
+      height="500px"
     width="600px"
-    color="#FFFFF"
+    color="#FFFFFF"
     zIndex={2}
     className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
   />
-  {/* Small Donut below main image, also on the right */}
-  <PolygonCard
-    color="#FFFFF"
-        height="200px"
-    width="150px"
-
-    zIndex={2}
-    className="absolute top-[-30px] left-10 z-0"
-  />
-  <img
+     <img
     src="/images/newpsd.png"
     className="relative max-w-full h-auto rounded-md -mt-20 z-10"
     alt="Hero Image"
