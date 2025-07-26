@@ -23,7 +23,6 @@ export default function Hero() {
   <CircleGrid
     color="#f43f5e"
     size="520px"
-    width={["30px", "30px", "50px", "50px"]}
     zIndex={2}
     className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
   />
