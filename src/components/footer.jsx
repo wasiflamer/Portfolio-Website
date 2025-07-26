@@ -14,7 +14,7 @@ export default function Footer() {
         <nav>
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold text-[#sD11149]">Find Me On Socials</h1>
+              <h1 className="text-5xl font-bold text-[#D11149]">Find Me On Socials</h1>
               <p className="flex flex-row gap-4 justify-center py-6">
                 <div className="hover:animate-tada">
                   <a
