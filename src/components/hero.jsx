@@ -23,9 +23,9 @@ export default function Hero() {
   <PolygonCard
     height="600px"
     width="600px"
-    color="#FFFFFF"
+    color="#FFF"
     zIndex={2}
-    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
+    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0 bg-neutral-700"
   />
      <img
     src="/images/newpsd.png"
