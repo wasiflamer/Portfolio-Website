@@ -1,5 +1,5 @@
 import { Donut } from "react-awesome-shapes";
-import { CircleGrid } from "react-awesome-shapes";
+import { Cross } from "react-awesome-shapes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJs,
@@ -20,7 +20,7 @@ export default function Hero() {
         
         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
   {/* Main Donut on the right */}
-  <CircleGrid
+  <Cross
     color="#f43f5e"
     size="520px"
     zIndex={2}
@@ -28,7 +28,7 @@ export default function Hero() {
   />
   {/* Small Donut below main image, also on the right */}
   <Donut
-    color="#E8C547"
+    color="#FFFFF"
     size="120px"
     width={["15px", "15px", "25px", "25px"]}
     zIndex={2}
