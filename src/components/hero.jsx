@@ -18,19 +18,22 @@ export default function Hero() {
           {/* Image Section */}
         
           <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright ">
-            <img
-              src="/images/newpsd.png"
-              className="max-w-full h-auto rounded-md -mt-20"
-              alt="Hero Image"
-            />
 
-             <Donut
+ <Donut
    color="#f43f5e"
    size="120px"
    width={["30px", "30px", "50px", "50px"]}
    zIndex={2}
    className="absolute top-[-30px] left-[-30px]"
  />
+
+            <img
+              src="/images/newpsd.png"
+              className="max-w-full h-auto rounded-md -mt-20"
+              alt="Hero Image"
+            />
+
+            
 
           </div>
 
