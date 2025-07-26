@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
   {/* Main Donut on the right */}
   <PolygonCard
-      height="500px"
+      Height="500px"
     width="600px"
     color="#FFFFFF"
     zIndex={2}
