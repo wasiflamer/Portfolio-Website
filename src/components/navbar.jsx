@@ -54,7 +54,7 @@ export default function Bar() {
               <a>Email</a>
             </li>
             <li>
-              <a>Socials</a>
+              <a href="#socials">Socials</a>
             </li>
           </ul>
         </div>

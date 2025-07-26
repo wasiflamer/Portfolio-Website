@@ -10,7 +10,7 @@ import {
 export default function Footer() {
   return (
     <>
-      <footer className="footer footer-center bg-gradient-to-b from-[#011638] to-[#011028] text-white  p-10">
+      <footer id="socials" className="footer footer-center bg-gradient-to-b from-[#011638] to-[#011028] text-white  p-10">
         <nav>
           <div className="hero-content text-center">
             <div className="max-w-md">
