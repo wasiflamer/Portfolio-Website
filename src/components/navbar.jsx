@@ -48,7 +48,7 @@ export default function Bar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 ">
             <li>
-              <a href="#portflio">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#email">Email</a>

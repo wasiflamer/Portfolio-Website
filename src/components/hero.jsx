@@ -23,7 +23,6 @@ export default function Hero() {
               className="max-w-full h-auto rounded-md -mt-20"
               alt="Hero Image"
             />
-          </div>
 
              <Donut
    color="#f43f5e"
@@ -33,7 +32,9 @@ export default function Hero() {
    className="absolute top-[-30px] left-[-30px]"
  />
 
+          </div>
 
+            
 
           {/* Text Section */}
           <div className="flex flex-col items-start text-center -mt-60 lg:text-left w-full lg:w-1/2">
