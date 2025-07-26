@@ -17,13 +17,22 @@ export default function Hero() {
         <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-center">
           {/* Image Section */}
         
-         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
+        <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
+  {/* Main Donut on the right */}
   <Donut
     color="#f43f5e"
     size="520px"
     width={["30px", "30px", "50px", "50px"]}
     zIndex={2}
-    className="absolute top-[-30px] left-[-30px] z-0"
+    className="absolute top-[-30px] right-[-30px] z-0"
+  />
+  {/* Small Donut below main image, also on the right */}
+  <Donut
+    color="#E8C547"
+    size="120px"
+    width={["15px", "15px", "25px", "25px"]}
+    zIndex={2}
+    className="absolute bottom-[-30px] right-10 z-0"
   />
   <img
     src="/images/newpsd.png"
