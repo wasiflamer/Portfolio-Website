@@ -23,7 +23,7 @@ export default function Hero() {
   <PolygonCard
       height="600px"
     width="600px"
-    color="#f43f5e"
+    color="#FFFFF"
     zIndex={2}
     className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
   />
