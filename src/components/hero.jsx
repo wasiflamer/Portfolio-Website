@@ -24,7 +24,7 @@ export default function Hero() {
     size="520px"
     width={["30px", "30px", "50px", "50px"]}
     zIndex={2}
-    className="absolute top-[-30px] right-[-30px] z-0"
+    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
   />
   {/* Small Donut below main image, also on the right */}
   <Donut
@@ -32,7 +32,7 @@ export default function Hero() {
     size="120px"
     width={["15px", "15px", "25px", "25px"]}
     zIndex={2}
-    className="absolute bottom-[-30px] right-10 z-0"
+    className="absolute top-[-30px] left-10 z-0"
   />
   <img
     src="/images/newpsd.png"
