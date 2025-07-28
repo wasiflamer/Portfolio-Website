@@ -1,5 +1,5 @@
 
-import { PolygonCard } from "react-awesome-shapes";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJs,
@@ -17,16 +17,7 @@ export default function Hero() {
       <div className="hero min-h-screen bg-gradient-to-b from-[#011638] to-[#011028] p-6 sm:p-12">
         <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-center">
           {/* Image Section */}
-        
         <div className="relative flex justify-center items-center w-full lg:w-1/2 mb-8 lg:mb-0 drop-shadow-2xl animate-fadeinright">
-  {/* Main Donut on the right */}
-  <PolygonCard
-    height="600px"
-    width="600px"
-    color="#1a2238"
-    zIndex={2}
-    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0 "
-  />
      <img
     src="/images/newpsd.png"
     className="relative max-w-full h-auto rounded-md -mt-20 z-10"
