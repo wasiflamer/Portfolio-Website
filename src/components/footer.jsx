@@ -22,7 +22,7 @@ export default function Footer() {
                     target="_blank"
                   >
                     <FontAwesomeIcon
-                      icon={falinkedin}
+                      icon={faLinkedin}
                       size="3x"
                       color="#ffffff"
                     />
