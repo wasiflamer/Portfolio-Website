@@ -16,6 +16,18 @@ export default function Footer() {
             <div className="max-w-md">
               <h1 className="text-5xl font-bold text-[#D11149]">Find Me On Socials</h1>
               <p className="flex flex-row gap-4 justify-center py-6">
+                 <div className="hover:animate-tada">
+                  <a
+                    href="https://www.linkedin.com/in/waseem-rz1/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      icon={falinkedin}
+                      size="3x"
+                      color="#ffffff"
+                    />
+                  </a>
+                </div>
                 <div className="hover:animate-tada">
                   <a
                     href="https://www.instagram.com/waseem_xoxo"
