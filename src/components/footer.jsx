@@ -5,6 +5,7 @@ import {
   faReddit,
   faGithub,
   faStackOverflow,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
