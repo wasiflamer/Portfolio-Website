@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
                 <div className="hover:animate-tada">
                   <a
-                    href="https://www.instagram.com/waseem_xoxo"
+                    href="https://www.instagram.com/waseem_encoded"
                     target="_blank"
                   >
                     <FontAwesomeIcon
