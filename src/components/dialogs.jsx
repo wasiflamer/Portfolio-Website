@@ -69,6 +69,8 @@ export default function Dialogs() {
                   one-stop solution for managing your video game collection
                   effortlessly.
                 </p>
+                 <h3 className="font-bold text-lg py-2">Link</h3>
+                 <a href="https://github.com/wasiflamer/gameraid">https://github.com/wasiflamer/gameraid</a>           
               </div>
             </div>
           </div>
